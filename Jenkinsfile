@@ -21,6 +21,11 @@ pipeline{
         sh "docker-compose ps"
       }
     }
+    stage("test"){
+      steps{
+        echo "testing..."
+      }
+    }
   }
 
   post {
