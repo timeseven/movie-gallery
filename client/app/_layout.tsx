@@ -9,7 +9,6 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 // Initialize Apollo Client
 const client = new ApolloClient({
   uri: "http://ec2-3-27-250-91.ap-southeast-2.compute.amazonaws.com/graphql",
-  // uri: "http://localhost:5000/graphql",
   cache: new InMemoryCache(),
 });
 
