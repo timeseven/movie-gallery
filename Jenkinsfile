@@ -17,6 +17,7 @@ pipeline{
     }
     stage("Start container"){
       steps{
+        checkout scm
         sh "docker-compose up -d"
         sh "docker-compose ps"
       }
