@@ -19,9 +19,6 @@ COPY . .
 # Install app dependencies
 RUN npm install
 
-#copy Fonts
-COPY node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts
-
 # Build the app for production
 #RUN npx react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/main.jsbundle --assets-dest ios/assets
 #RUN npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
