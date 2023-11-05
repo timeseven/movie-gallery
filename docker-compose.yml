@@ -12,3 +12,8 @@ services:
       - "8081:8081"
     stdin_open: true
     tty: true
+    environment:
+      - expo_devtools_listen_address=0.0.0.0
+      - chokidar_usepolling=true
+    volumes:
+      - .:/home

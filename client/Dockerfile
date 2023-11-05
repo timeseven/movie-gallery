@@ -1,8 +1,8 @@
 # Base image
 FROM node:18.17.1-alpine
 
-# install expo global
-RUN npm i -g expo-cli@latest
+# install expo and chokidar global
+RUN npm i -g expo-cli@latest chokidar
 
 # Create app directory
 WORKDIR /client
