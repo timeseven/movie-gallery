@@ -16,6 +16,8 @@ COPY tsconfig.json ./
 # COPY
 COPY . .
 
+VOLUME /data
+
 # Install app dependencies
 RUN npm install
 

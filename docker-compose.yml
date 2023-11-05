@@ -16,4 +16,4 @@ services:
     #   - expo_devtools_listen_address=0.0.0.0
     #   - chokidar_usepolling=true
     volumes:
-      - ./client:/client
+      - ./client:/data
