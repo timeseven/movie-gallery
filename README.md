@@ -16,14 +16,20 @@ This is a react native application that allows users to browse and search movies
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/timeseven/rn-movie-gallery.gitt`
+1. Clone the repository: `git clone https://github.com/timeseven/movie-gallery.git`
 
-2. Open a terminal and install all dependencies: `npm install`
+2. Open a terminal and navigate to the server directory: `cd server`
 
-3. Start the project: `npm start`
+3. Install server dependencies: `npm install`
+
+4. Start the server: `npm run start:dev`
+
+5. Open a new terminal and navigate to the client directory: `cd client`
+
+6. Install client dependencies: `npm install`
+
+7. Start the client: `npm start`
 
 ## Guide
 
 To use the app, Scan the QR code above with Expo Go (Android) or the Camera app (iOS) after starting the project. Otherwise, press w in the terminal to enable the project open in the web browser.
-
-## Deploy
